@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orchestra's world</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Hind:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body class="altrepagine">
+
+    <header>
+        <div id="navbar">
+          <div class="logoleft">
+            <a href="index.html"><img src="images/sfondi/logo.png" alt="logohome"></a>
+          </div>
+          <nav id="barradiricerca">
+            <ul>
+              <li><a href="archi.html">Archi</a></li>
+              <li><a href="fiati.html">Fiati</a></li>
+              <li><a href="percussioni.html">Percussioni</a></li>
+              <li><a href="teatri.html">Teatri</a></li>
+              <li><a href="quiz.html">Quiz</a></li>
+              <li><a href="about.html">About</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div id="hamburger-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <nav id="mobile-nav" class="hidden">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="archi.html">Archi</a></li>
+            <li><a href="fiati.html">Fiati</a></li>
+            <li><a href="percussioni.html">Percussioni</a></li>
+            <li><a href="teatri.html">Teatri</a></li>
+            <li><a href="quiz.html">Quiz</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <div class="contenitore">
+        <div class="immaginequiz">
+            <h1 class="title">QUIZ</h1>
+        </div>
+    </div>
+
+<!-- QUIZ -->
+
+      <div id="sottotitoloquiz">
+          
+        <h2>METTITI ALLA PROVA CON UN QUIZ DI ASCOLTO!</h2>
+        
+      </div>
+
+      <div id="quiz-container">
+          <div class="quiz-content">
+              <h1 class="quiz-title">Riconosci questo strumento musicale dal suono?</h1>
+              <div class="question-container">
+                  <audio id="audio" controls></audio>
+                  <p id="question" class="question"></p>
+                  <div id="answer-buttons" class="btn-container"></div>
+              </div>
+              <button id="next-btn" class="btn">Prossima Domanda</button>
+          </div>
+      </div>
+
+      <div id="results-container" class="results-container">
+          <!-- I risultati del quiz verranno aggiunti qui dinamicamente -->
+      </div>
+
+    <footer>
+        <p>&copy; Orchestra's world</p>
+    </footer>
+
+      <div class="validation">
+        <h3 class="validw3c"> Questo sito è stato validato secondo gli standard del W3C.</h3>
+      </div>
+
+    <script src="quiz.js"></script>
+    <script src="tendina.js"></script>
+
+  </body>
+</html>

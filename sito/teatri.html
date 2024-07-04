@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orchestra's world</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Hind:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body class="altrepagine">
+
+    <header>
+        <div id="navbar">
+          <div class="logoleft">
+            <a href="index.html"><img src="images/sfondi/logo.png" alt="logohome"></a>
+          </div>
+          <nav id="barradiricerca">
+            <ul>
+              <li><a href="archi.html">Archi</a></li>
+              <li><a href="fiati.html">Fiati</a></li>
+              <li><a href="percussioni.html">Percussioni</a></li>
+              <li><a href="teatri.html">Teatri</a></li>
+              <li><a href="quiz.html">Quiz</a></li>
+              <li><a href="about.html">About</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div id="hamburger-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <nav id="mobile-nav" class="hidden">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="archi.html">Archi</a></li>
+            <li><a href="fiati.html">Fiati</a></li>
+            <li><a href="percussioni.html">Percussioni</a></li>
+            <li><a href="teatri.html">Teatri</a></li>
+            <li><a href="quiz.html">Quiz</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <div class="contenitore">
+        <div class="immagineteatri">
+            <h1 class="title">TEATRI</h1>
+        </div>
+    </div>
+
+<!--SCOPRI I TEATRI-->
+        <div class="scopriteatri">
+            <h2>SCOPRI I TEATRI ITALIANI</h2>
+            <p>
+                <span class="highlight">CLICCA SULLE CITTÀ</span> PER CONOSCERE I MAGGIORI <span class="highlight">TEATRI ITALIANI</span>
+            </p>
+        </div>
+<!-- MAPPA TEATRI-->
+
+        <div class="teatritaliani">
+            <div class="main_trovaci">
+                <img id="mappa_italia" src="images/sfondi/mappadefinitiva.png" alt="Mappa Italia" usemap="#map_italia">
+                <map name="map_italia">
+                    <area id="TeatroFenice" class="cliccabile" shape="circle" coords="212,89,33" alt="Teatro La Fenice" href="#">
+                    <area id="TeatroMassimo" class="cliccabile" shape="circle" coords="269,519,32" alt="Teatro Massimo" href="#">
+                    <area id="TeatroScala" class="cliccabile" shape="circle" coords="119,79,29" alt="Teatro alla Scala" href="#">
+                    <area id="TeatroCarloFelice" class="cliccabile" shape="circle" coords="84,127,27" alt="Teatro Carlo Felice" href="#">
+                    <area id="TeatroVerdi" class="cliccabile" shape="circle" coords="182,183,35" alt="Teatro Verdi" href="#">
+                    <area id="TeatroSanCarlo" class="cliccabile" shape="circle" coords="311,334,33" alt="Teatro di San Carlo" href="#">
+                </map>
+            </div>
+            <div id="contatti_teatro" class="contatti"></div> <!-- Div per visualizzare i dettagli del teatro -->
+        </div>
+
+      <footer>
+          <p>&copy; Orchestra's world</p>
+      </footer>
+
+        <div class="validation">
+          <h3 class="validw3c"> Questo sito è stato validato secondo gli standard del W3C.</h3>
+        </div>
+
+      <script src="mappa.js"></script>
+      <script src="tendina.js"></script>
+        
+    </body>
+</html>
